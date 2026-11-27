@@ -8,6 +8,7 @@ membuka UI-nya di jendela asli. UI yang sama sudah punya:
 Jadi launcher ini tidak menduplikasi UI; ia hanya membungkusnya jadi aplikasi .exe.
 Kalau pywebview tidak ada / WebView2 tidak tersedia, otomatis membuka browser biasa.
 """
+
 from __future__ import annotations
 
 import multiprocessing
